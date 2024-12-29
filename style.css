@@ -1,0 +1,206 @@
+ /* google fonts  */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Allura&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+} */
+/* body {
+  font-family: 'Allura', handwriting;
+} */
+ 
+/* universal styles */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+ }
+
+ body {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+ }
+
+ /* header styles */
+
+#header-section {
+    background-color: #da6682;
+    height: 11vh;
+    width: 100%;
+}
+
+.navbar-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo {
+    height: 100%;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 55px;
+}
+
+.logo-name {
+    font-family: 'Allura', handwriting;
+    font-size: 1.7rem;
+    color: #80b1e6;
+    letter-spacing: 3px;
+}
+
+.highlights {
+    margin-left: 10px;
+    color: #f0f0f0;
+}
+
+.nav-items {
+    margin-left: 10%;
+   height: 100%;
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.nav-links {
+    font-size: 15px;
+    color: #f0f0f0;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links:hover {
+    color: #80b1e6;
+}
+
+.primary-btn {
+    background-color: #80b1e6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+    background-color: #f0f0f0;
+    color: #da6682;
+}
+
+.social-container {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 10px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+.social-link {
+    color: #f0f0f0;
+    font-size: 15px;
+}
+
+#main-section {
+    height: 89vh;
+    width: 100%;
+    background: linear-gradient(
+        rgba(218, 102, 130, 0.8),
+        rgba(218, 102, 130, 0.3)
+      ),
+      url('./img/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.card-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    padding: 30px 30px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    height: 60%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #ffffff;  
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-logo-img {
+    height: 100px;  
+}
+
+.card-content {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: black;
+    font-variant: small-caps;
+}
+
+.card-description {
+    font-size: 15px;
+    color: grey;
+    font-weight: 400;
+}
+
+.card-pricing {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
